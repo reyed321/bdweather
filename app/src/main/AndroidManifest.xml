@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bdweather">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.FutureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
